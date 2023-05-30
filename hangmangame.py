@@ -1,1 +1,2 @@
-#neshto ddz
+
+import sys
