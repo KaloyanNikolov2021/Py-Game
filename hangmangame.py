@@ -22,7 +22,7 @@ def draw_btns(BUTTONS):
         btn_text = btn_font.render(letter, True, BLACK)
         btn_text_rect = btn_text.get_rect(center=(button.x + SIZE//2, button.y + SIZE//2))
         pygame.draw.rect(screen, BLACK, button, 2) 
-        screen.blit(btn_text, btn_text_react)
+        screen.blit(btn_text, btn_text_rect)
 
 
 def display_guess():
